@@ -118,7 +118,7 @@ body.lock {
    width: 15px;
    height: 15px;
    cursor: pointer;
-   background-color: rgba(0, 0, 0, 0.5);
+   background-color: rgba(224, 218, 218, 0.5);
    margin: 10px 0;
    border-radius: 50%;
    transition: background-color 0.3s ease 0s;
@@ -883,7 +883,7 @@ body.lock {
       height: rem(2);
       background: rgba(255, 255, 255, 0.2);
       @media (max-width: 500px) {
-         bottom: rem(-40);
+         bottom: rem(-25);
       }
    }
 }
@@ -967,6 +967,9 @@ body.lock {
 
 .footer__bottom {
    padding: rem(30) 0;
+   @media (max-width: 500px) {
+      padding: rem(20) 0;
+   }
 }
 .bottom-footer {
    display: flex;
@@ -981,12 +984,12 @@ body.lock {
       }
    }
    @media (max-width: 500px) {
-      margin-top: rem(50);
+      margin-top: rem(30);
    }
    @media (max-width: 400px) {
       display: grid;
       grid-template-columns: repeat(3, 50px);
-      row-gap: rem(30);
+      row-gap: rem(20);
    }
 }
 .bottom-footer__logo {
