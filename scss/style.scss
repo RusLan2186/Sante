@@ -846,6 +846,9 @@ body.lock {
    flex: 0 1 50%;
    img {
       max-width: 100%;
+      @media (max-width: 767.98px) {
+         width: 60%;
+      }
    }
 }
 
@@ -998,7 +1001,7 @@ body.lock {
 .bottom-footer__social {
    img {
       @media (max-width: 500px) {
-         width: 70%;
+         width: 50%;
       }
    }
 }

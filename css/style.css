@@ -941,6 +941,11 @@ body {
 .mission__image img {
   max-width: 100%;
 }
+@media (max-width: 767.98px) {
+  .mission__image img {
+    width: 60%;
+  }
+}
 
 .footer {
   background: #1e1d1b;
@@ -1120,6 +1125,6 @@ body {
 
 @media (max-width: 500px) {
   .bottom-footer__social img {
-    width: 70%;
+    width: 50%;
   }
 }
